@@ -23,12 +23,12 @@ public class Student {
 		System.out.println("Enter Marks :");
 		marks=sc.nextInt();
 		System.out.println();
-	}
+	}//end of setDetails
 	
 	public void show()
 	{
 		System.out.printf("Roll number : %d \n Student name : %s \n Marks : %d \n\n",roll_num,name,marks);
-	}
+	}//end of show()
 	
 	public static void main(String[] args) {
 		Student s[] = new Student[5];
